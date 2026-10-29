@@ -18,4 +18,4 @@ Company information is supplied by the business. Review accreditation and waste 
 
 ## Photos
 
-The Home and About pages use the lorry photographs in `images/`. The original files remain in `Photos/`. Publish the `images/` folder alongside the HTML and CSS so the photographs load online. To change a photograph, replace its file or update its `src`, descriptive `alt` text, and intrinsic width and height in the HTML.
+The Home and About pages use the original lorry photographs in `Photos/`. Publish the `Photos/` folder alongside the HTML and CSS so the photographs load online. Keep the capital P in the folder name and preserve the filenames. To change a photograph, replace its file or update its `src`, descriptive `alt` text, and intrinsic width and height in the HTML.
