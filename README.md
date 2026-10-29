@@ -5,7 +5,7 @@ Open `index.html` in any modern browser. No installation, build step or server i
 ## Editing
 
 - Text: open the relevant `.html` file in a text editor and change the content inside the HTML tags.
-- Colours: edit the variables at the top of `css/style.css`. `--blue` is the brand blue, `--deep` is the darker blue, and `--yellow` is the accent. Dark mode follows the visitor’s system preference; edit its variables inside `prefers-color-scheme: dark`.
+- Colours: edit the variables at the top of `css/style.css`. `--blue` is the brand blue, `--deep` is the darker blue, and `--accent` is the silver-grey accent and `--yellow` is reserved for the registration plate and hazard stripe. Dark mode follows the visitor’s system preference; edit its variables inside `prefers-color-scheme: dark`.
 - Contact details: search all four HTML files for the phone, email or address and replace each occurrence. Update `tel:+447814727388` and `mailto:info@randjtransport.com` as well as the visible text. Update the Google Maps address query in `contact.html` if the address changes.
 - Header and footer: these are repeated in each HTML file so every page works independently. Apply shared edits to all four files.
 - New page: copy an inner page, rename it (for example `fleet.html`), then change its title, meta description, banner and main content. Add its navigation link to every page. Set `aria-current="page"` only on the link matching the current file. Keep the shared CSS and script links.
